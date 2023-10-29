@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>d8f4c346037744f089c3760b7c495272</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="02b53885-692d-4b8e-81b1-98f732106080" class="cell markdown">
+<p><strong>Factors Affecting Student Academic Performance</strong>*</p>
+<p><strong>Introduction:</strong></p>
+<p>Grades hold significant importance for students as they often serve
+as the foundation for their future career opportunities and academic
+pursuits. Students’ grades can be influenced by multiple factors, such
+as study habits, motivations, and parent involvements. These factors can
+be categorized into two primary ones, the family-related variables and
+individual behavior. This research aims to address the two factors by
+examining the relationships between student academic performances with
+specifically their parents’ educational levels and their highschool
+attendances. The dataset used in this project, titled “Student
+Performance”, is obtained from the UC Irvine Machine Learning
+Repository. This dataset was conducted on students attending two
+secondary schools in Portuguese, featuring data on social and school
+characteristics. In this project, data about student grades in
+mathematics and Portuguese languages, absences records, and students’
+parents information will be examined and analyzed.</p>
+<p><em>Reference:</em> Student Performance. (2014). UC Irvine Machine
+Learning Repository. [Data set]. <a
+href="https://archive.ics.uci.edu/dataset/320/student+performance"
+class="uri">https://archive.ics.uci.edu/dataset/320/student+performance</a></p>
+<p><strong>Methods:</strong></p>
+<p>In order to answer our question of predicting the impact of both
+absences as well as students’ parents’ education on a student’s academic
+performance, we will be using the columns: Medu (mother education), Fedu
+(father education), absences, G1, G2, and G3. The columns Medu, Fedu and
+absences will be the independent variables (our predictors) and the
+average of G1, G2 and G3 grades will be the dependent variables.</p>
+<p><em>Absences</em>: the number of absences that a student has is a
+useful predictor for their grades. Students who have a lot of absences
+often suffer from losing participation marks. We are curious to see if
+the number of absences strongly impact grades and to what extent.</p>
+<p><em>Medu and Fedu</em>: Parents with higher education levels often
+emphasize the importance of education and may be more equipped to
+provide academic support at home, which would in turn improve a
+students’ grades.</p>
+<p>We plan on using a KNN learning classifier in order to predict our
+results. The best way to visualize the results is by using a coloured
+coded scatter plot. A coloured coded scatter plot would help us quickly
+be able to classify a new point just visually even without using our
+model.</p>
+<p><strong>Expected Outcomes and Significance</strong></p>
+<p>The expected outcome of this study is that if a student may not have
+had a privileged background (i.e. parents’ education level is not high)
+then they will not perform as well in highschool compared to other
+students.</p>
+<p>These findings are crucial because students represent the future of
+society, and their education is vital for community progress. By doing
+well in high school, these students will be able to become stronger
+students in university, usually leading to future success.A strong
+school foundation hinges on family support. Analyzing parental education
+levels offers insights into how academic support influences a child's
+success and character development. This information can also indicate
+the presence of positive role models, which impacts a student's
+attendance. Finally, these findings raise questions about additional
+support for struggling students, such as tutoring, smaller classes, or
+counseling.</p>
+</div>
+<div id="361700b4-c3ab-4dea-b59a-d4fd01b64aec" class="cell code"
+data-execution_count="1" data-tags="[]">
+<div class="sourceCode" id="cb1"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidymodels)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(repr)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rvest)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RColorBrewer)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.4.2     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.1
+✔ tidyr   1.3.0     ✔ stringr 1.5.0
+✔ readr   2.1.3     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+── Attaching packages ────────────────────────────────────── tidymodels 1.0.0 ──
+
+✔ broom        1.0.2     ✔ rsample      1.1.1
+✔ dials        1.1.0     ✔ tune         1.0.1
+✔ infer        1.0.4     ✔ workflows    1.1.2
+✔ modeldata    1.0.1     ✔ workflowsets 1.0.0
+✔ parsnip      1.0.3     ✔ yardstick    1.1.0
+✔ recipes      1.0.4     
+
+── Conflicts ───────────────────────────────────────── tidymodels_conflicts() ──
+✖ scales::discard() masks purrr::discard()
+✖ dplyr::filter()   masks stats::filter()
+✖ recipes::fixed()  masks stringr::fixed()
+✖ dplyr::lag()      masks stats::lag()
+✖ yardstick::spec() masks readr::spec()
+✖ recipes::step()   masks stats::step()
+• Search for functions across packages at https://www.tidymodels.org/find/
+
+
+Attaching package: ‘rvest’
+
+
+The following object is masked from ‘package:readr’:
+
+    guess_encoding
+
+
+</code></pre>
+</div>
+</div>
+<div id="475b05e1-8bad-4df7-8f6c-e0060232fe5f" class="cell code"
+data-execution_count="2">
+<div class="sourceCode" id="cb3"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="st">&quot;https://raw.githubusercontent.com/sweetmidnights/T1-008-DataScienceProject-32/main/student-mat.csv&quot;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>dataset <span class="ot">&lt;-</span> <span class="fu">read_delim</span>(url, <span class="at">delim =</span> <span class="st">&quot;;&quot;</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>dataset</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Rows: 395 Columns: 33
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: &quot;;&quot;
+chr (17): school, sex, address, famsize, Pstatus, Mjob, Fjob, reason, guardi...
+dbl (16): age, Medu, Fedu, traveltime, studytime, failures, famrel, freetime...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</code></pre>
+</div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A spec_tbl_df: 395 × 33</caption>
+<thead>
+	<tr><th scope=col>school</th><th scope=col>sex</th><th scope=col>age</th><th scope=col>address</th><th scope=col>famsize</th><th scope=col>Pstatus</th><th scope=col>Medu</th><th scope=col>Fedu</th><th scope=col>Mjob</th><th scope=col>Fjob</th><th scope=col>⋯</th><th scope=col>famrel</th><th scope=col>freetime</th><th scope=col>goout</th><th scope=col>Dalc</th><th scope=col>Walc</th><th scope=col>health</th><th scope=col>absences</th><th scope=col>G1</th><th scope=col>G2</th><th scope=col>G3</th></tr>
+	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>⋯</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>A</td><td>4</td><td>4</td><td>at_home </td><td>teacher </td><td>⋯</td><td>4</td><td>3</td><td>4</td><td>1</td><td>1</td><td>3</td><td> 6</td><td> 5</td><td> 6</td><td> 6</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>at_home </td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>3</td><td>1</td><td>1</td><td>3</td><td> 4</td><td> 5</td><td> 5</td><td> 6</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>LE3</td><td>T</td><td>1</td><td>1</td><td>at_home </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>2</td><td>3</td><td>3</td><td>10</td><td> 7</td><td> 8</td><td>10</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>2</td><td>health  </td><td>services</td><td>⋯</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td><td>5</td><td> 2</td><td>15</td><td>14</td><td>15</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>1</td><td>2</td><td>5</td><td> 4</td><td> 6</td><td>10</td><td>10</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>3</td><td>services</td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>2</td><td>1</td><td>2</td><td>5</td><td>10</td><td>15</td><td>15</td><td>15</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>1</td><td>1</td><td>3</td><td> 0</td><td>12</td><td>12</td><td>11</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>A</td><td>4</td><td>4</td><td>other   </td><td>teacher </td><td>⋯</td><td>4</td><td>1</td><td>4</td><td>1</td><td>1</td><td>1</td><td> 6</td><td> 6</td><td> 5</td><td> 6</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>LE3</td><td>A</td><td>3</td><td>2</td><td>services</td><td>other   </td><td>⋯</td><td>4</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td> 0</td><td>16</td><td>18</td><td>19</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>4</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>5</td><td>1</td><td>1</td><td>1</td><td>5</td><td> 0</td><td>14</td><td>15</td><td>15</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>health  </td><td>⋯</td><td>3</td><td>3</td><td>3</td><td>1</td><td>2</td><td>2</td><td> 0</td><td>10</td><td> 8</td><td> 9</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>1</td><td>services</td><td>other   </td><td>⋯</td><td>5</td><td>2</td><td>2</td><td>1</td><td>1</td><td>4</td><td> 4</td><td>10</td><td>12</td><td>12</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>4</td><td>health  </td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>1</td><td>3</td><td>5</td><td> 2</td><td>14</td><td>14</td><td>14</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>3</td><td>teacher </td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>3</td><td>1</td><td>2</td><td>3</td><td> 2</td><td>10</td><td>10</td><td>11</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>A</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>5</td><td>2</td><td>1</td><td>1</td><td>3</td><td> 0</td><td>14</td><td>16</td><td>16</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>health  </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>1</td><td>2</td><td>2</td><td> 4</td><td>14</td><td>14</td><td>14</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>services</td><td>services</td><td>⋯</td><td>3</td><td>2</td><td>3</td><td>1</td><td>2</td><td>2</td><td> 6</td><td>13</td><td>14</td><td>14</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>2</td><td>1</td><td>1</td><td>4</td><td> 4</td><td> 8</td><td>10</td><td>10</td></tr>
+	<tr><td>GP</td><td>M</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>2</td><td>services</td><td>services</td><td>⋯</td><td>5</td><td>5</td><td>5</td><td>2</td><td>4</td><td>5</td><td>16</td><td> 6</td><td> 5</td><td> 5</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>3</td><td>health  </td><td>other   </td><td>⋯</td><td>3</td><td>1</td><td>3</td><td>1</td><td>3</td><td>5</td><td> 4</td><td> 8</td><td>10</td><td>10</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>3</td><td>teacher </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>1</td><td>1</td><td>1</td><td>1</td><td> 0</td><td>13</td><td>14</td><td>15</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>health  </td><td>health  </td><td>⋯</td><td>5</td><td>4</td><td>2</td><td>1</td><td>1</td><td>5</td><td> 0</td><td>12</td><td>15</td><td>15</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>2</td><td>teacher </td><td>other   </td><td>⋯</td><td>4</td><td>5</td><td>1</td><td>1</td><td>3</td><td>5</td><td> 2</td><td>15</td><td>15</td><td>16</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>4</td><td>2</td><td>4</td><td>5</td><td> 0</td><td>13</td><td>13</td><td>12</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>R</td><td>GT3</td><td>T</td><td>2</td><td>4</td><td>services</td><td>health  </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>1</td><td>1</td><td>5</td><td> 2</td><td>10</td><td> 9</td><td> 8</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>services</td><td>services</td><td>⋯</td><td>1</td><td>2</td><td>2</td><td>1</td><td>3</td><td>5</td><td>14</td><td> 6</td><td> 9</td><td> 8</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>2</td><td>2</td><td>1</td><td>2</td><td>5</td><td> 2</td><td>12</td><td>12</td><td>11</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>2</td><td>health  </td><td>services</td><td>⋯</td><td>2</td><td>2</td><td>4</td><td>2</td><td>4</td><td>1</td><td> 4</td><td>15</td><td>16</td><td>15</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>A</td><td>3</td><td>4</td><td>services</td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>3</td><td>1</td><td>1</td><td>5</td><td> 4</td><td>11</td><td>11</td><td>11</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>teacher </td><td>⋯</td><td>4</td><td>4</td><td>5</td><td>5</td><td>5</td><td>5</td><td>16</td><td>10</td><td>12</td><td>11</td></tr>
+	<tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋱</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>3</td><td>at_home </td><td>other   </td><td>⋯</td><td>3</td><td>3</td><td>4</td><td>2</td><td>4</td><td>3</td><td> 4</td><td>10</td><td>10</td><td>10</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>services</td><td>⋯</td><td>4</td><td>2</td><td>2</td><td>2</td><td>2</td><td>5</td><td> 0</td><td>13</td><td>13</td><td>13</td></tr>
+	<tr><td>MS</td><td>F</td><td>17</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>services</td><td>⋯</td><td>5</td><td>2</td><td>1</td><td>1</td><td>2</td><td>1</td><td> 0</td><td> 7</td><td> 6</td><td> 0</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>3</td><td>at_home </td><td>services</td><td>⋯</td><td>5</td><td>2</td><td>3</td><td>1</td><td>2</td><td>4</td><td> 0</td><td>11</td><td>10</td><td>10</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>other   </td><td>teacher </td><td>⋯</td><td>3</td><td>2</td><td>2</td><td>4</td><td>2</td><td>5</td><td>10</td><td>14</td><td>12</td><td>11</td></tr>
+	<tr><td>MS</td><td>F</td><td>19</td><td>U</td><td>LE3</td><td>T</td><td>3</td><td>2</td><td>services</td><td>services</td><td>⋯</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td><td>3</td><td> 4</td><td> 7</td><td> 7</td><td> 9</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>R</td><td>LE3</td><td>T</td><td>1</td><td>2</td><td>at_home </td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>2</td><td>3</td><td>3</td><td> 3</td><td>14</td><td>12</td><td>12</td></tr>
+	<tr><td>MS</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>at_home </td><td>⋯</td><td>3</td><td>4</td><td>3</td><td>1</td><td>1</td><td>3</td><td> 8</td><td>13</td><td>11</td><td>11</td></tr>
+	<tr><td>MS</td><td>F</td><td>17</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>3</td><td>5</td><td>5</td><td>1</td><td>3</td><td>1</td><td>14</td><td> 6</td><td> 5</td><td> 5</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>R</td><td>LE3</td><td>T</td><td>4</td><td>4</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>4</td><td>1</td><td>1</td><td>1</td><td> 0</td><td>19</td><td>18</td><td>19</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>1</td><td>2</td><td>4</td><td> 2</td><td> 8</td><td> 8</td><td>10</td></tr>
+	<tr><td>MS</td><td>F</td><td>20</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>2</td><td>health  </td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>3</td><td>1</td><td>1</td><td>3</td><td> 4</td><td>15</td><td>14</td><td>15</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>R</td><td>LE3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>services</td><td>⋯</td><td>5</td><td>4</td><td>3</td><td>3</td><td>4</td><td>2</td><td> 4</td><td> 8</td><td> 9</td><td>10</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>1</td><td>3</td><td>1</td><td>2</td><td>1</td><td> 0</td><td>15</td><td>15</td><td>15</td></tr>
+	<tr><td>MS</td><td>F</td><td>17</td><td>R</td><td>GT3</td><td>T</td><td>3</td><td>1</td><td>at_home </td><td>other   </td><td>⋯</td><td>4</td><td>5</td><td>4</td><td>2</td><td>3</td><td>1</td><td>17</td><td>10</td><td>10</td><td>10</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>teacher </td><td>⋯</td><td>3</td><td>2</td><td>4</td><td>1</td><td>4</td><td>2</td><td> 4</td><td>15</td><td>14</td><td>14</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>2</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>3</td><td>1</td><td>3</td><td>5</td><td> 5</td><td> 7</td><td> 6</td><td> 7</td></tr>
+	<tr><td>MS</td><td>M</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>3</td><td>other   </td><td>services</td><td>⋯</td><td>4</td><td>4</td><td>3</td><td>1</td><td>1</td><td>3</td><td> 2</td><td>11</td><td>11</td><td>10</td></tr>
+	<tr><td>MS</td><td>M</td><td>19</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>1</td><td>3</td><td>5</td><td> 0</td><td> 6</td><td> 5</td><td> 0</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>4</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>3</td><td>4</td><td>3</td><td>3</td><td>14</td><td> 6</td><td> 5</td><td> 5</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>at_home </td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>3</td><td>1</td><td>3</td><td>4</td><td> 2</td><td>10</td><td> 9</td><td>10</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>at_home </td><td>⋯</td><td>4</td><td>4</td><td>3</td><td>2</td><td>2</td><td>5</td><td> 7</td><td> 6</td><td> 5</td><td> 6</td></tr>
+	<tr><td>MS</td><td>F</td><td>19</td><td>R</td><td>GT3</td><td>T</td><td>2</td><td>3</td><td>services</td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>2</td><td>1</td><td>2</td><td>5</td><td> 0</td><td> 7</td><td> 5</td><td> 0</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>3</td><td>1</td><td>teacher </td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>4</td><td>1</td><td>1</td><td>1</td><td> 0</td><td> 7</td><td> 9</td><td> 8</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>5</td><td> 0</td><td> 6</td><td> 5</td><td> 0</td></tr>
+	<tr><td>MS</td><td>M</td><td>20</td><td>U</td><td>LE3</td><td>A</td><td>2</td><td>2</td><td>services</td><td>services</td><td>⋯</td><td>5</td><td>5</td><td>4</td><td>4</td><td>5</td><td>4</td><td>11</td><td> 9</td><td> 9</td><td> 9</td></tr>
+	<tr><td>MS</td><td>M</td><td>17</td><td>U</td><td>LE3</td><td>T</td><td>3</td><td>1</td><td>services</td><td>services</td><td>⋯</td><td>2</td><td>4</td><td>5</td><td>3</td><td>4</td><td>2</td><td> 3</td><td>14</td><td>16</td><td>16</td></tr>
+	<tr><td>MS</td><td>M</td><td>21</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>5</td><td>3</td><td>3</td><td>3</td><td>3</td><td> 3</td><td>10</td><td> 8</td><td> 7</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>R</td><td>LE3</td><td>T</td><td>3</td><td>2</td><td>services</td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>1</td><td>3</td><td>4</td><td>5</td><td> 0</td><td>11</td><td>12</td><td>10</td></tr>
+	<tr><td>MS</td><td>M</td><td>19</td><td>U</td><td>LE3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>at_home </td><td>⋯</td><td>3</td><td>2</td><td>3</td><td>3</td><td>3</td><td>5</td><td> 5</td><td> 8</td><td> 9</td><td> 9</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div id="bd4efbbd-040e-42eb-8dde-ad36b6f80a86" class="cell code"
+data-execution_count="3" data-tags="[]">
+<div class="sourceCode" id="cb5"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>dataset_split <span class="ot">&lt;-</span> <span class="fu">initial_split</span>(dataset, <span class="at">prop =</span> <span class="fl">0.75</span>) </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dataset_train <span class="ot">&lt;-</span> <span class="fu">training</span>(dataset_split)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>dataset_test <span class="ot">&lt;-</span> <span class="fu">testing</span>(dataset_split)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>dataset_train</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>dataset_test</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A tibble: 296 × 33</caption>
+<thead>
+	<tr><th scope=col>school</th><th scope=col>sex</th><th scope=col>age</th><th scope=col>address</th><th scope=col>famsize</th><th scope=col>Pstatus</th><th scope=col>Medu</th><th scope=col>Fedu</th><th scope=col>Mjob</th><th scope=col>Fjob</th><th scope=col>⋯</th><th scope=col>famrel</th><th scope=col>freetime</th><th scope=col>goout</th><th scope=col>Dalc</th><th scope=col>Walc</th><th scope=col>health</th><th scope=col>absences</th><th scope=col>G1</th><th scope=col>G2</th><th scope=col>G3</th></tr>
+	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>⋯</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>2</td><td>3</td><td>1</td><td>3</td><td>3</td><td> 0</td><td>11</td><td>11</td><td>11</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>2</td><td>at_home </td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>3</td><td>1</td><td>3</td><td>2</td><td>10</td><td>11</td><td> 9</td><td>10</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>services</td><td>⋯</td><td>4</td><td>4</td><td>2</td><td>1</td><td>2</td><td>5</td><td> 0</td><td> 8</td><td>11</td><td>11</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>1</td><td>1</td><td>services</td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>1</td><td>3</td><td>5</td><td> 0</td><td>14</td><td>12</td><td>12</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>2</td><td>health  </td><td>services</td><td>⋯</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>3</td><td> 0</td><td> 6</td><td> 7</td><td> 0</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>2</td><td>services</td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>5</td><td>2</td><td>4</td><td>5</td><td> 0</td><td> 6</td><td> 8</td><td> 8</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>teacher </td><td>⋯</td><td>4</td><td>5</td><td>2</td><td>1</td><td>2</td><td>3</td><td> 0</td><td> 9</td><td> 9</td><td>10</td></tr>
+	<tr><td>GP</td><td>M</td><td>17</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>2</td><td>at_home </td><td>at_home </td><td>⋯</td><td>3</td><td>5</td><td>2</td><td>2</td><td>2</td><td>1</td><td> 2</td><td>15</td><td>14</td><td>14</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>services</td><td>⋯</td><td>3</td><td>3</td><td>2</td><td>1</td><td>2</td><td>3</td><td> 4</td><td>10</td><td>10</td><td>10</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>1</td><td>3</td><td>at_home </td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>2</td><td>3</td><td>3</td><td> 7</td><td> 8</td><td> 7</td><td> 8</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>services</td><td>services</td><td>⋯</td><td>5</td><td>3</td><td>4</td><td>1</td><td>1</td><td>5</td><td> 0</td><td>10</td><td> 9</td><td> 9</td></tr>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>3</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>5</td><td>1</td><td>2</td><td>2</td><td>10</td><td>10</td><td> 8</td><td> 8</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>services</td><td>teacher </td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>1</td><td>1</td><td>5</td><td> 2</td><td>19</td><td>18</td><td>18</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>other   </td><td>services</td><td>⋯</td><td>4</td><td>5</td><td>5</td><td>4</td><td>4</td><td>5</td><td> 4</td><td>10</td><td>12</td><td>12</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>health  </td><td>health  </td><td>⋯</td><td>5</td><td>4</td><td>2</td><td>1</td><td>1</td><td>5</td><td> 0</td><td>12</td><td>15</td><td>15</td></tr>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>3</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>1</td><td>1</td><td>3</td><td> 0</td><td>14</td><td>13</td><td>14</td></tr>
+	<tr><td>MS</td><td>F</td><td>17</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>2</td><td>other   </td><td>services</td><td>⋯</td><td>3</td><td>2</td><td>2</td><td>1</td><td>2</td><td>3</td><td> 0</td><td>12</td><td>11</td><td>12</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>3</td><td>health  </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>5</td><td>1</td><td>5</td><td>2</td><td> 2</td><td>16</td><td>16</td><td>16</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>services</td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>2</td><td>4</td><td>5</td><td>15</td><td> 6</td><td> 7</td><td> 8</td></tr>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>4</td><td>1</td><td>1</td><td>4</td><td> 4</td><td> 8</td><td> 9</td><td>10</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>LE3</td><td>A</td><td>4</td><td>4</td><td>teacher </td><td>teacher </td><td>⋯</td><td>5</td><td>4</td><td>3</td><td>1</td><td>1</td><td>2</td><td> 9</td><td>15</td><td>13</td><td>15</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>1</td><td>at_home </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>4</td><td>5</td><td>3</td><td>14</td><td>10</td><td> 8</td><td> 9</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>at_home </td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>3</td><td>1</td><td>1</td><td>3</td><td> 4</td><td> 5</td><td> 5</td><td> 6</td></tr>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>1</td><td>1</td><td>2</td><td> 0</td><td> 8</td><td> 8</td><td> 0</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>R</td><td>GT3</td><td>T</td><td>3</td><td>4</td><td>services</td><td>health  </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>1</td><td>1</td><td>5</td><td> 2</td><td>12</td><td>12</td><td>11</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>R</td><td>GT3</td><td>T</td><td>2</td><td>4</td><td>services</td><td>health  </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>1</td><td>1</td><td>5</td><td> 2</td><td>10</td><td> 9</td><td> 8</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>R</td><td>GT3</td><td>T</td><td>2</td><td>3</td><td>at_home </td><td>services</td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>1</td><td>1</td><td>1</td><td> 2</td><td>11</td><td> 8</td><td> 8</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>2</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>3</td><td>1</td><td>3</td><td>5</td><td> 5</td><td> 7</td><td> 6</td><td> 7</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>A</td><td>4</td><td>4</td><td>other   </td><td>teacher </td><td>⋯</td><td>4</td><td>1</td><td>4</td><td>1</td><td>1</td><td>1</td><td> 6</td><td> 6</td><td> 5</td><td> 6</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>A</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>5</td><td>2</td><td>1</td><td>1</td><td>3</td><td> 0</td><td>14</td><td>16</td><td>16</td></tr>
+	<tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋱</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>R</td><td>GT3</td><td>T</td><td>3</td><td>4</td><td>services</td><td>teacher </td><td>⋯</td><td>4</td><td>2</td><td>2</td><td>2</td><td>2</td><td>5</td><td> 0</td><td>12</td><td> 0</td><td> 0</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>services</td><td>⋯</td><td>5</td><td>5</td><td>4</td><td>3</td><td>5</td><td>2</td><td> 0</td><td> 7</td><td> 7</td><td> 0</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>3</td><td>3</td><td>3</td><td>5</td><td>5</td><td>4</td><td> 0</td><td>12</td><td>13</td><td>13</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>services</td><td>other   </td><td>⋯</td><td>3</td><td>4</td><td>4</td><td>1</td><td>4</td><td>5</td><td> 2</td><td>13</td><td>13</td><td>11</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>3</td><td>teacher </td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>5</td><td>1</td><td>1</td><td>3</td><td> 0</td><td> 6</td><td> 0</td><td> 0</td></tr>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>services</td><td>services</td><td>⋯</td><td>5</td><td>3</td><td>4</td><td>1</td><td>1</td><td>4</td><td> 0</td><td> 7</td><td> 0</td><td> 0</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>3</td><td>services</td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>1</td><td>1</td><td>2</td><td>10</td><td>11</td><td>12</td><td>13</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>R</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>services</td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>3</td><td>4</td><td>5</td><td> 8</td><td> 8</td><td> 9</td><td>10</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>1</td><td>at_home </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>3</td><td>5</td><td>5</td><td> 6</td><td>12</td><td>13</td><td>14</td></tr>
+	<tr><td>GP</td><td>M</td><td>19</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>1</td><td>1</td><td>3</td><td>20</td><td>15</td><td>14</td><td>13</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>at_home </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>4</td><td>1</td><td>2</td><td>2</td><td> 4</td><td> 8</td><td> 7</td><td> 6</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>R</td><td>LE3</td><td>T</td><td>3</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>2</td><td>2</td><td>3</td><td>3</td><td>12</td><td>16</td><td>16</td><td>16</td></tr>
+	<tr><td>GP</td><td>F</td><td>19</td><td>U</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>at_home </td><td>health  </td><td>⋯</td><td>4</td><td>1</td><td>2</td><td>1</td><td>1</td><td>3</td><td>14</td><td>15</td><td>13</td><td>13</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>at_home </td><td>other   </td><td>⋯</td><td>3</td><td>1</td><td>2</td><td>1</td><td>1</td><td>5</td><td> 6</td><td>10</td><td>13</td><td>13</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>at_home </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>1</td><td>2</td><td>4</td><td> 0</td><td> 8</td><td> 0</td><td> 0</td></tr>
+	<tr><td>MS</td><td>M</td><td>17</td><td>R</td><td>GT3</td><td>T</td><td>4</td><td>3</td><td>services</td><td>other   </td><td>⋯</td><td>4</td><td>5</td><td>5</td><td>1</td><td>3</td><td>2</td><td> 4</td><td>13</td><td>11</td><td>11</td></tr>
+	<tr><td>GP</td><td>F</td><td>19</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>1</td><td>services</td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>4</td><td>1</td><td>3</td><td>3</td><td> 4</td><td>11</td><td>12</td><td>11</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>1</td><td>1</td><td>5</td><td> 0</td><td>13</td><td>15</td><td>15</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>R</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>health  </td><td>services</td><td>⋯</td><td>4</td><td>1</td><td>3</td><td>1</td><td>3</td><td>4</td><td> 2</td><td> 8</td><td> 9</td><td> 8</td></tr>
+	<tr><td>MS</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>at_home </td><td>⋯</td><td>3</td><td>4</td><td>3</td><td>1</td><td>1</td><td>3</td><td> 8</td><td>13</td><td>11</td><td>11</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>A</td><td>2</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>3</td><td>2</td><td>3</td><td>1</td><td>2</td><td>3</td><td>10</td><td>12</td><td>10</td><td>12</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>services</td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>3</td><td>1</td><td>1</td><td>5</td><td> 4</td><td>10</td><td>13</td><td>14</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>R</td><td>GT3</td><td>T</td><td>3</td><td>4</td><td>at_home </td><td>teacher </td><td>⋯</td><td>5</td><td>3</td><td>3</td><td>1</td><td>1</td><td>5</td><td> 0</td><td> 9</td><td> 0</td><td> 0</td></tr>
+	<tr><td>GP</td><td>M</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>health  </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>3</td><td>1</td><td>3</td><td>5</td><td> 4</td><td>14</td><td>12</td><td>11</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>2</td><td>3</td><td>2</td><td> 0</td><td> 7</td><td> 8</td><td> 0</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>1</td><td>2</td><td>5</td><td> 4</td><td> 6</td><td>10</td><td>10</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>3</td><td>4</td><td>4</td><td>1</td><td>3</td><td>5</td><td>12</td><td>10</td><td>13</td><td>12</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>5</td><td>5</td><td>2</td><td>4</td><td>5</td><td> 2</td><td> 9</td><td> 8</td><td> 8</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>teacher </td><td>⋯</td><td>1</td><td>4</td><td>2</td><td>2</td><td>2</td><td>1</td><td> 5</td><td>16</td><td>15</td><td>16</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>other   </td><td>teacher </td><td>⋯</td><td>3</td><td>2</td><td>2</td><td>4</td><td>2</td><td>5</td><td>10</td><td>14</td><td>12</td><td>11</td></tr>
+</tbody>
+</table>
+
+</div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A tibble: 99 × 33</caption>
+<thead>
+	<tr><th scope=col>school</th><th scope=col>sex</th><th scope=col>age</th><th scope=col>address</th><th scope=col>famsize</th><th scope=col>Pstatus</th><th scope=col>Medu</th><th scope=col>Fedu</th><th scope=col>Mjob</th><th scope=col>Fjob</th><th scope=col>⋯</th><th scope=col>famrel</th><th scope=col>freetime</th><th scope=col>goout</th><th scope=col>Dalc</th><th scope=col>Walc</th><th scope=col>health</th><th scope=col>absences</th><th scope=col>G1</th><th scope=col>G2</th><th scope=col>G3</th></tr>
+	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>⋯</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>A</td><td>4</td><td>4</td><td>at_home </td><td>teacher </td><td>⋯</td><td>4</td><td>3</td><td>4</td><td>1</td><td>1</td><td>3</td><td> 6</td><td> 5</td><td> 6</td><td> 6</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>3</td><td>health  </td><td>other   </td><td>⋯</td><td>3</td><td>1</td><td>3</td><td>1</td><td>3</td><td>5</td><td> 4</td><td> 8</td><td>10</td><td>10</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>2</td><td>teacher </td><td>other   </td><td>⋯</td><td>4</td><td>5</td><td>1</td><td>1</td><td>3</td><td>5</td><td> 2</td><td>15</td><td>15</td><td>16</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>4</td><td>2</td><td>4</td><td>5</td><td> 0</td><td>13</td><td>13</td><td>12</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>services</td><td>services</td><td>⋯</td><td>1</td><td>2</td><td>2</td><td>1</td><td>3</td><td>5</td><td>14</td><td> 6</td><td> 9</td><td> 8</td></tr>
+	<tr><td>GP</td><td>M</td><td>16</td><td>R</td><td>GT3</td><td>A</td><td>4</td><td>4</td><td>other   </td><td>teacher </td><td>⋯</td><td>2</td><td>4</td><td>3</td><td>1</td><td>1</td><td>5</td><td> 7</td><td>15</td><td>16</td><td>15</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>services</td><td>services</td><td>⋯</td><td>5</td><td>4</td><td>1</td><td>1</td><td>1</td><td>1</td><td> 0</td><td> 8</td><td> 8</td><td>11</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>at_home </td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>2</td><td>2</td><td>5</td><td>14</td><td>10</td><td>10</td><td> 9</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>2</td><td>teacher </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>2</td><td>2</td><td>5</td><td> 2</td><td>15</td><td>15</td><td>14</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>services</td><td>teacher </td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>1</td><td>1</td><td>3</td><td> 2</td><td> 7</td><td> 7</td><td> 7</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>services</td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>2</td><td>3</td><td>4</td><td> 2</td><td>12</td><td>13</td><td>13</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>LE3</td><td>A</td><td>4</td><td>2</td><td>health  </td><td>health  </td><td>⋯</td><td>5</td><td>5</td><td>5</td><td>3</td><td>4</td><td>5</td><td> 6</td><td>11</td><td>11</td><td>10</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>A</td><td>2</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>4</td><td>1</td><td>1</td><td>2</td><td> 8</td><td> 8</td><td> 9</td><td>10</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>A</td><td>4</td><td>3</td><td>services</td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td> 0</td><td>14</td><td>15</td><td>15</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>R</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>health  </td><td>teacher </td><td>⋯</td><td>2</td><td>4</td><td>4</td><td>2</td><td>3</td><td>4</td><td> 6</td><td>10</td><td>11</td><td>11</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>services</td><td>services</td><td>⋯</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td> 6</td><td>10</td><td> 8</td><td>11</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>1</td><td>2</td><td>other   </td><td>services</td><td>⋯</td><td>4</td><td>4</td><td>3</td><td>1</td><td>1</td><td>1</td><td> 4</td><td> 8</td><td>10</td><td> 9</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>3</td><td>services</td><td>services</td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>2</td><td>4</td><td>2</td><td> 0</td><td>10</td><td>10</td><td>10</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>0</td><td>teacher </td><td>other   </td><td>⋯</td><td>3</td><td>4</td><td>3</td><td>1</td><td>1</td><td>1</td><td> 8</td><td>11</td><td>11</td><td>10</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>3</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>2</td><td>1</td><td>2</td><td>5</td><td> 4</td><td>11</td><td>10</td><td>11</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>2</td><td>3</td><td>4</td><td> 2</td><td> 9</td><td>10</td><td>10</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>services</td><td>services</td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>2</td><td>3</td><td>5</td><td> 6</td><td> 7</td><td> 9</td><td> 8</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>3</td><td>1</td><td>3</td><td>1</td><td> 4</td><td>13</td><td>14</td><td>14</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>2</td><td>services</td><td>health  </td><td>⋯</td><td>4</td><td>3</td><td>4</td><td>1</td><td>1</td><td>4</td><td> 6</td><td>11</td><td>13</td><td>14</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>3</td><td>other   </td><td>at_home </td><td>⋯</td><td>5</td><td>3</td><td>5</td><td>1</td><td>1</td><td>3</td><td> 0</td><td> 7</td><td> 9</td><td> 8</td></tr>
+	<tr><td>GP</td><td>F</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>5</td><td>1</td><td>2</td><td>1</td><td>1</td><td>3</td><td> 8</td><td> 7</td><td> 8</td><td> 8</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>LE3</td><td>A</td><td>4</td><td>4</td><td>teacher </td><td>teacher </td><td>⋯</td><td>5</td><td>5</td><td>3</td><td>1</td><td>1</td><td>4</td><td> 6</td><td>18</td><td>19</td><td>19</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>4</td><td>other   </td><td>other   </td><td>⋯</td><td>3</td><td>4</td><td>3</td><td>1</td><td>2</td><td>4</td><td> 6</td><td>14</td><td>13</td><td>13</td></tr>
+	<tr><td>GP</td><td>F</td><td>16</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>4</td><td>other   </td><td>health  </td><td>⋯</td><td>4</td><td>2</td><td>2</td><td>1</td><td>2</td><td>5</td><td> 2</td><td>13</td><td>13</td><td>13</td></tr>
+	<tr><td>GP</td><td>M</td><td>15</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>4</td><td>services</td><td>services</td><td>⋯</td><td>5</td><td>5</td><td>5</td><td>3</td><td>2</td><td>5</td><td> 0</td><td>13</td><td>13</td><td>12</td></tr>
+	<tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋱</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>services</td><td>⋯</td><td>3</td><td>2</td><td>4</td><td>1</td><td>4</td><td>3</td><td>22</td><td> 9</td><td> 9</td><td> 9</td></tr>
+	<tr><td>GP</td><td>M</td><td>17</td><td>U</td><td>LE3</td><td>A</td><td>4</td><td>1</td><td>services</td><td>other   </td><td>⋯</td><td>4</td><td>5</td><td>4</td><td>2</td><td>4</td><td>5</td><td>30</td><td> 8</td><td> 8</td><td> 8</td></tr>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>at_home </td><td>at_home </td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>1</td><td>2</td><td>2</td><td> 5</td><td>18</td><td>18</td><td>19</td></tr>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>2</td><td>1</td><td>services</td><td>at_home </td><td>⋯</td><td>5</td><td>4</td><td>3</td><td>1</td><td>1</td><td>5</td><td>12</td><td>12</td><td>12</td><td>13</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>R</td><td>LE3</td><td>T</td><td>3</td><td>2</td><td>services</td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>2</td><td>1</td><td>1</td><td>4</td><td> 8</td><td>14</td><td>13</td><td>14</td></tr>
+	<tr><td>GP</td><td>F</td><td>19</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>health  </td><td>other   </td><td>⋯</td><td>2</td><td>3</td><td>4</td><td>2</td><td>3</td><td>2</td><td> 0</td><td>10</td><td> 9</td><td> 0</td></tr>
+	<tr><td>GP</td><td>M</td><td>17</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>4</td><td>other   </td><td>teacher </td><td>⋯</td><td>4</td><td>1</td><td>1</td><td>2</td><td>2</td><td>5</td><td> 0</td><td>11</td><td>11</td><td>10</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>1</td><td>1</td><td>3</td><td> 0</td><td>15</td><td>12</td><td>14</td></tr>
+	<tr><td>GP</td><td>F</td><td>19</td><td>U</td><td>LE3</td><td>T</td><td>1</td><td>2</td><td>services</td><td>services</td><td>⋯</td><td>4</td><td>2</td><td>4</td><td>2</td><td>2</td><td>3</td><td> 0</td><td> 9</td><td> 9</td><td> 0</td></tr>
+	<tr><td>GP</td><td>F</td><td>19</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>1</td><td>at_home </td><td>other   </td><td>⋯</td><td>3</td><td>4</td><td>1</td><td>1</td><td>1</td><td>2</td><td>20</td><td>14</td><td>12</td><td>13</td></tr>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>3</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>4</td><td>1</td><td>1</td><td>5</td><td> 9</td><td> 9</td><td>10</td><td> 9</td></tr>
+	<tr><td>GP</td><td>M</td><td>17</td><td>R</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>services</td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>5</td><td>5</td><td>5</td><td>4</td><td> 8</td><td>11</td><td>10</td><td>10</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>services</td><td>⋯</td><td>5</td><td>4</td><td>4</td><td>1</td><td>3</td><td>4</td><td> 7</td><td>10</td><td> 9</td><td> 9</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>R</td><td>GT3</td><td>T</td><td>2</td><td>4</td><td>at_home </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>3</td><td>1</td><td>1</td><td>5</td><td> 7</td><td>12</td><td>14</td><td>14</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>4</td><td>services</td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>5</td><td>1</td><td>3</td><td>5</td><td>16</td><td>16</td><td>15</td><td>15</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>services</td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>2</td><td>2</td><td>2</td><td> 0</td><td>10</td><td>10</td><td> 0</td></tr>
+	<tr><td>GP</td><td>F</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>2</td><td>3</td><td>at_home </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>3</td><td>1</td><td>2</td><td>3</td><td> 4</td><td>11</td><td>10</td><td>10</td></tr>
+	<tr><td>GP</td><td>M</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>3</td><td>teacher </td><td>other   </td><td>⋯</td><td>5</td><td>4</td><td>5</td><td>2</td><td>3</td><td>5</td><td> 0</td><td>10</td><td>10</td><td> 9</td></tr>
+	<tr><td>GP</td><td>F</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>3</td><td>health  </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>3</td><td>1</td><td>3</td><td>4</td><td> 0</td><td>13</td><td>15</td><td>15</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>3</td><td>2</td><td>other   </td><td>other   </td><td>⋯</td><td>2</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>10</td><td>11</td><td>13</td><td>13</td></tr>
+	<tr><td>MS</td><td>M</td><td>19</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>services</td><td>⋯</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td> 8</td><td> 8</td><td> 7</td><td> 8</td></tr>
+	<tr><td>MS</td><td>M</td><td>17</td><td>U</td><td>GT3</td><td>T</td><td>3</td><td>3</td><td>health  </td><td>other   </td><td>⋯</td><td>4</td><td>5</td><td>4</td><td>2</td><td>3</td><td>3</td><td> 2</td><td>13</td><td>13</td><td>13</td></tr>
+	<tr><td>MS</td><td>M</td><td>19</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>5</td><td> 4</td><td> 8</td><td> 8</td><td> 8</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>U</td><td>LE3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>services</td><td>⋯</td><td>4</td><td>2</td><td>2</td><td>2</td><td>2</td><td>5</td><td> 0</td><td>13</td><td>13</td><td>13</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>1</td><td>1</td><td>other   </td><td>other   </td><td>⋯</td><td>4</td><td>3</td><td>2</td><td>1</td><td>2</td><td>4</td><td> 2</td><td> 8</td><td> 8</td><td>10</td></tr>
+	<tr><td>MS</td><td>F</td><td>17</td><td>R</td><td>GT3</td><td>T</td><td>3</td><td>1</td><td>at_home </td><td>other   </td><td>⋯</td><td>4</td><td>5</td><td>4</td><td>2</td><td>3</td><td>1</td><td>17</td><td>10</td><td>10</td><td>10</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>U</td><td>GT3</td><td>T</td><td>4</td><td>4</td><td>teacher </td><td>teacher </td><td>⋯</td><td>3</td><td>2</td><td>4</td><td>1</td><td>4</td><td>2</td><td> 4</td><td>15</td><td>14</td><td>14</td></tr>
+	<tr><td>MS</td><td>F</td><td>18</td><td>R</td><td>GT3</td><td>T</td><td>2</td><td>2</td><td>at_home </td><td>other   </td><td>⋯</td><td>5</td><td>3</td><td>3</td><td>1</td><td>3</td><td>4</td><td> 2</td><td>10</td><td> 9</td><td>10</td></tr>
+	<tr><td>MS</td><td>M</td><td>17</td><td>U</td><td>LE3</td><td>T</td><td>3</td><td>1</td><td>services</td><td>services</td><td>⋯</td><td>2</td><td>4</td><td>5</td><td>3</td><td>4</td><td>2</td><td> 3</td><td>14</td><td>16</td><td>16</td></tr>
+	<tr><td>MS</td><td>M</td><td>18</td><td>R</td><td>LE3</td><td>T</td><td>3</td><td>2</td><td>services</td><td>other   </td><td>⋯</td><td>4</td><td>4</td><td>1</td><td>3</td><td>4</td><td>5</td><td> 0</td><td>11</td><td>12</td><td>10</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div id="7d4805c4-9597-497c-97f2-34f228326b42" class="cell code"
+data-execution_count="4">
+<div class="sourceCode" id="cb6"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>student_performance <span class="ot">&lt;-</span> dataset_test <span class="sc">|&gt;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>              <span class="fu">select</span>(absences, Fedu, Medu, G1, G2, G3, school) <span class="sc">|&gt;</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>              <span class="fu">mutate</span>(<span class="at">GT =</span> ((G1 <span class="sc">+</span> G2 <span class="sc">+</span> G3) <span class="sc">/</span> <span class="dv">3</span>)<span class="sc">*</span> <span class="dv">5</span>) <span class="co">#calculating the average for the data</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>student_performance                 </span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A tibble: 99 × 8</caption>
+<thead>
+	<tr><th scope=col>absences</th><th scope=col>Fedu</th><th scope=col>Medu</th><th scope=col>G1</th><th scope=col>G2</th><th scope=col>G3</th><th scope=col>school</th><th scope=col>GT</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td> 6</td><td>4</td><td>4</td><td> 5</td><td> 6</td><td> 6</td><td>GP</td><td>28.33333</td></tr>
+	<tr><td> 4</td><td>3</td><td>4</td><td> 8</td><td>10</td><td>10</td><td>GP</td><td>46.66667</td></tr>
+	<tr><td> 2</td><td>2</td><td>4</td><td>15</td><td>15</td><td>16</td><td>GP</td><td>76.66667</td></tr>
+	<tr><td> 0</td><td>2</td><td>2</td><td>13</td><td>13</td><td>12</td><td>GP</td><td>63.33333</td></tr>
+	<tr><td>14</td><td>2</td><td>2</td><td> 6</td><td> 9</td><td> 8</td><td>GP</td><td>38.33333</td></tr>
+	<tr><td> 7</td><td>4</td><td>4</td><td>15</td><td>16</td><td>15</td><td>GP</td><td>76.66667</td></tr>
+	<tr><td> 0</td><td>2</td><td>2</td><td> 8</td><td> 8</td><td>11</td><td>GP</td><td>45.00000</td></tr>
+	<tr><td>14</td><td>2</td><td>2</td><td>10</td><td>10</td><td> 9</td><td>GP</td><td>48.33333</td></tr>
+	<tr><td> 2</td><td>2</td><td>4</td><td>15</td><td>15</td><td>14</td><td>GP</td><td>73.33333</td></tr>
+	<tr><td> 2</td><td>4</td><td>4</td><td> 7</td><td> 7</td><td> 7</td><td>GP</td><td>35.00000</td></tr>
+	<tr><td> 2</td><td>2</td><td>2</td><td>12</td><td>13</td><td>13</td><td>GP</td><td>63.33333</td></tr>
+	<tr><td> 6</td><td>2</td><td>4</td><td>11</td><td>11</td><td>10</td><td>GP</td><td>53.33333</td></tr>
+	<tr><td> 8</td><td>1</td><td>2</td><td> 8</td><td> 9</td><td>10</td><td>GP</td><td>45.00000</td></tr>
+	<tr><td> 0</td><td>3</td><td>4</td><td>14</td><td>15</td><td>15</td><td>GP</td><td>73.33333</td></tr>
+	<tr><td> 6</td><td>4</td><td>4</td><td>10</td><td>11</td><td>11</td><td>GP</td><td>53.33333</td></tr>
+	<tr><td> 6</td><td>1</td><td>1</td><td>10</td><td> 8</td><td>11</td><td>GP</td><td>48.33333</td></tr>
+	<tr><td> 4</td><td>2</td><td>1</td><td> 8</td><td>10</td><td> 9</td><td>GP</td><td>45.00000</td></tr>
+	<tr><td> 0</td><td>3</td><td>4</td><td>10</td><td>10</td><td>10</td><td>GP</td><td>50.00000</td></tr>
+	<tr><td> 8</td><td>0</td><td>4</td><td>11</td><td>11</td><td>10</td><td>GP</td><td>53.33333</td></tr>
+	<tr><td> 4</td><td>3</td><td>2</td><td>11</td><td>10</td><td>11</td><td>GP</td><td>53.33333</td></tr>
+	<tr><td> 2</td><td>1</td><td>1</td><td> 9</td><td>10</td><td>10</td><td>GP</td><td>48.33333</td></tr>
+	<tr><td> 6</td><td>4</td><td>4</td><td> 7</td><td> 9</td><td> 8</td><td>GP</td><td>40.00000</td></tr>
+	<tr><td> 4</td><td>2</td><td>4</td><td>13</td><td>14</td><td>14</td><td>GP</td><td>68.33333</td></tr>
+	<tr><td> 6</td><td>2</td><td>2</td><td>11</td><td>13</td><td>14</td><td>GP</td><td>63.33333</td></tr>
+	<tr><td> 0</td><td>3</td><td>4</td><td> 7</td><td> 9</td><td> 8</td><td>GP</td><td>40.00000</td></tr>
+	<tr><td> 8</td><td>2</td><td>2</td><td> 7</td><td> 8</td><td> 8</td><td>GP</td><td>38.33333</td></tr>
+	<tr><td> 6</td><td>4</td><td>4</td><td>18</td><td>19</td><td>19</td><td>GP</td><td>93.33333</td></tr>
+	<tr><td> 6</td><td>4</td><td>3</td><td>14</td><td>13</td><td>13</td><td>GP</td><td>66.66667</td></tr>
+	<tr><td> 2</td><td>4</td><td>2</td><td>13</td><td>13</td><td>13</td><td>GP</td><td>65.00000</td></tr>
+	<tr><td> 0</td><td>4</td><td>3</td><td>13</td><td>13</td><td>12</td><td>GP</td><td>63.33333</td></tr>
+	<tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr>
+	<tr><td>22</td><td>4</td><td>4</td><td> 9</td><td> 9</td><td> 9</td><td>GP</td><td>45.00000</td></tr>
+	<tr><td>30</td><td>1</td><td>4</td><td> 8</td><td> 8</td><td> 8</td><td>GP</td><td>40.00000</td></tr>
+	<tr><td> 5</td><td>2</td><td>2</td><td>18</td><td>18</td><td>19</td><td>GP</td><td>91.66667</td></tr>
+	<tr><td>12</td><td>1</td><td>2</td><td>12</td><td>12</td><td>13</td><td>GP</td><td>61.66667</td></tr>
+	<tr><td> 8</td><td>2</td><td>3</td><td>14</td><td>13</td><td>14</td><td>GP</td><td>68.33333</td></tr>
+	<tr><td> 0</td><td>4</td><td>4</td><td>10</td><td> 9</td><td> 0</td><td>GP</td><td>31.66667</td></tr>
+	<tr><td> 0</td><td>4</td><td>4</td><td>11</td><td>11</td><td>10</td><td>GP</td><td>53.33333</td></tr>
+	<tr><td> 0</td><td>2</td><td>4</td><td>15</td><td>12</td><td>14</td><td>GP</td><td>68.33333</td></tr>
+	<tr><td> 0</td><td>2</td><td>1</td><td> 9</td><td> 9</td><td> 0</td><td>GP</td><td>30.00000</td></tr>
+	<tr><td>20</td><td>1</td><td>2</td><td>14</td><td>12</td><td>13</td><td>GP</td><td>65.00000</td></tr>
+	<tr><td> 9</td><td>3</td><td>4</td><td> 9</td><td>10</td><td> 9</td><td>GP</td><td>46.66667</td></tr>
+	<tr><td> 8</td><td>2</td><td>2</td><td>11</td><td>10</td><td>10</td><td>GP</td><td>51.66667</td></tr>
+	<tr><td> 7</td><td>4</td><td>4</td><td>10</td><td> 9</td><td> 9</td><td>GP</td><td>46.66667</td></tr>
+	<tr><td> 7</td><td>4</td><td>2</td><td>12</td><td>14</td><td>14</td><td>GP</td><td>66.66667</td></tr>
+	<tr><td>16</td><td>4</td><td>3</td><td>16</td><td>15</td><td>15</td><td>GP</td><td>76.66667</td></tr>
+	<tr><td> 0</td><td>4</td><td>4</td><td>10</td><td>10</td><td> 0</td><td>GP</td><td>33.33333</td></tr>
+	<tr><td> 4</td><td>3</td><td>2</td><td>11</td><td>10</td><td>10</td><td>GP</td><td>51.66667</td></tr>
+	<tr><td> 0</td><td>3</td><td>4</td><td>10</td><td>10</td><td> 9</td><td>GP</td><td>48.33333</td></tr>
+	<tr><td> 0</td><td>3</td><td>4</td><td>13</td><td>15</td><td>15</td><td>GP</td><td>71.66667</td></tr>
+	<tr><td>10</td><td>2</td><td>3</td><td>11</td><td>13</td><td>13</td><td>MS</td><td>61.66667</td></tr>
+	<tr><td> 8</td><td>1</td><td>1</td><td> 8</td><td> 7</td><td> 8</td><td>MS</td><td>38.33333</td></tr>
+	<tr><td> 2</td><td>3</td><td>3</td><td>13</td><td>13</td><td>13</td><td>MS</td><td>65.00000</td></tr>
+	<tr><td> 4</td><td>1</td><td>1</td><td> 8</td><td> 8</td><td> 8</td><td>MS</td><td>40.00000</td></tr>
+	<tr><td> 0</td><td>4</td><td>4</td><td>13</td><td>13</td><td>13</td><td>MS</td><td>65.00000</td></tr>
+	<tr><td> 2</td><td>1</td><td>1</td><td> 8</td><td> 8</td><td>10</td><td>MS</td><td>43.33333</td></tr>
+	<tr><td>17</td><td>1</td><td>3</td><td>10</td><td>10</td><td>10</td><td>MS</td><td>50.00000</td></tr>
+	<tr><td> 4</td><td>4</td><td>4</td><td>15</td><td>14</td><td>14</td><td>MS</td><td>71.66667</td></tr>
+	<tr><td> 2</td><td>2</td><td>2</td><td>10</td><td> 9</td><td>10</td><td>MS</td><td>48.33333</td></tr>
+	<tr><td> 3</td><td>1</td><td>3</td><td>14</td><td>16</td><td>16</td><td>MS</td><td>76.66667</td></tr>
+	<tr><td> 0</td><td>2</td><td>3</td><td>11</td><td>12</td><td>10</td><td>MS</td><td>55.00000</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div id="79fe211e-a705-4b28-bab9-3a77d5a8031e" class="cell code"
+data-execution_count="5">
+<div class="sourceCode" id="cb7"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>plot_student_performance <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(student_performance , <span class="fu">aes</span>(<span class="at">x =</span> GT, <span class="at">y =</span> absences, <span class="at">color =</span> school)) <span class="sc">+</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>                   <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>                   <span class="fu">xlab</span>(<span class="st">&quot;Average Grade (out of 20)&quot;</span>) <span class="sc">+</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>                   <span class="fu">ylab</span>(<span class="st">&quot;Days of Being Absent&quot;</span>) <span class="sc">+</span> </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>                   <span class="fu">labs</span>(<span class="at">color =</span> <span class="st">&#39;School Name&#39;</span>) <span class="sc">+</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>                   <span class="fu">theme</span>(<span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>))<span class="sc">+</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>                   <span class="fu">ggtitle</span>(<span class="st">&quot;Student Grades versus Days of being Absent&quot;</span>) <span class="co">#title for the plot</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>plot_student_performance</span></code></pre></div>
+<div class="output display_data">
+<p><embed
+src="vertopal_471da770b4be4fb2bdc964d136e82304/a5014a147b4c1c7151ad6abe56b506e8ce5920ab.pdf"
+width="420" height="420" /></p>
+</div>
+</div>
+</body>
+</html>
